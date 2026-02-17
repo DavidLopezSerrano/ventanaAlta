@@ -34,5 +34,6 @@ public class MainWindow extends JFrame {
 		setVisible(true);
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
+
 	}
 }
