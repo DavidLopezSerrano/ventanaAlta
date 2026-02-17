@@ -1,6 +1,6 @@
 package controller;
 
-public class KeyListener implements {
+public class KeyListener {
 
 	
 	public KeyListener() {
