@@ -16,6 +16,8 @@ public class MainWindow extends JFrame{
 	private ArrayList<JTextField>textFields = new ArrayList<>();
 	
 	public MainWindow() {
+		
+			System.out.println("prueba");
 
 		
 		
