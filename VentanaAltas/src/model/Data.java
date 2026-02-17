@@ -25,22 +25,23 @@
 		// Metodos
 
 		private void createNumbers() {
-			texts.add(null);
-			texts.add(null);
-			texts.add(null);
-			texts.add(null);
-			texts.add(null);
-			texts.add(null);
+			
+			numbers.add(null);
+			numbers.add(null);
+			numbers.add(null);
+			numbers.add(null);
+			numbers.add(null);
+			numbers.add(null);
 			
 		}
 
 		private void createTexts() {
-			numbers.add(null);
-			numbers.add(null);
-			numbers.add(null);
-			numbers.add(null);
-			numbers.add(null);
-			numbers.add(null);
+			texts.add(null);
+			texts.add(null);
+			texts.add(null);
+			texts.add(null);
+			texts.add(null);
+			texts.add(null);
 			
 		}
 		
