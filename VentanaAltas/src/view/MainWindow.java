@@ -1,9 +1,17 @@
 package view;
 
-public class MainWindow {
+import javax.swing.JFrame;
 
+public class MainWindow extends JFrame{
+
+	
+	
+	
 	public MainWindow() {
 
+		
+		
+		
 		
 	}
 }
