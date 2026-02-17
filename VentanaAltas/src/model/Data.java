@@ -26,7 +26,7 @@ public class Data {
 
 	private void createNumbers() {
 		
-		numbers.add(null);
+		numbers.add(0);
 		numbers.add(null);
 		numbers.add(null);
 		numbers.add(null);
