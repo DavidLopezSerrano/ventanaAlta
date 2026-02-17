@@ -17,7 +17,7 @@ public class MainWindow extends JFrame{
 	
 	public MainWindow() {
 		
-			System.out.println("prueba");
+			
 
 		
 		
