@@ -85,6 +85,7 @@ public class MainWindow extends JFrame {
 		for (int i = 0; i < panelsMain.size(); i++) {
 		mainPanel.add(panelsMain.get(i));
 		}
+		 
 		
 		this.add(mainPanel);
 		
