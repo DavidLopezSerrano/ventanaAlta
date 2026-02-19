@@ -11,7 +11,8 @@ public class Data {
 
 	// Constructor de data
 	public Data() {
-
+		super();
+		
 		createTexts();
 		createNumbers();
 
