@@ -5,12 +5,14 @@ import java.util.ArrayList;
 
 public class Data {
 	// Atributos
-	private ArrayList<String> texts = new ArrayList<>();
+	private ArrayList<String> personalData = new ArrayList<>();
+	private ArrayList<String> address = new ArrayList<>();
 	private ArrayList<Integer> numbers = new ArrayList<>();
 
 	// Constructor de data
 	public Data() {
-
+		super();
+		
 		createTexts();
 		createNumbers();
 
@@ -19,7 +21,7 @@ public class Data {
 	// Metodos
 
 	private void createNumbers() {
-
+		
 		numbers.add(null);
 		numbers.add(null);
 		numbers.add(null);
@@ -34,43 +36,51 @@ public class Data {
 		/*
 		 * Datos personales
 		 */
-		texts.add("Nombre"); // 0
-		texts.add("Primer apellido"); // 1
-		texts.add("Segundo apellido"); // 2
-		texts.add("Sexo"); // 3
-		texts.add("Tipo de documento"); // 4
-		texts.add("Número de documento"); // 5
-		texts.add("Fecha de nacimiento"); // 6
-		texts.add("Correo electrónico"); // 7
-		texts.add("Teléfono de casa"); // 8
-		texts.add("Movil personal"); // 9
-		texts.add("Movil trabajo"); // 10
-
+		personalData.add("Nombre"); // 0
+		personalData.add("Primer apellido"); // 1
+		personalData.add("Segundo apellido"); // 2
+		personalData.add("Sexo"); // 3
+		personalData.add("Tipo de documento"); // 4
+		personalData.add("Número de documento"); // 5
+		personalData.add("Fecha de nacimiento"); // 6
+		personalData.add("Correo electrónico"); // 7
+		personalData.add("Teléfono de casa"); // 8
+		personalData.add("Movil personal"); // 9
+		personalData.add("Movil trabajo"); // 10
+		
 		/*
 		 * Dirección
 		 */
-		texts.add("Tipo vía"); // 11
-		texts.add("Calle"); // 12
-		texts.add("Número"); // 13
-		texts.add("Escalera"); // 14
-		texts.add("Piso"); // 15
-		texts.add("Puerta"); // 16
-		texts.add("Código postal"); // 17
-		texts.add("Localidad"); // 18
-		texts.add("Código municipio"); // 19
-		texts.add("Provincia"); // 20
-		texts.add("Comunidad autónoma"); // 21
-		texts.add("País"); // 22
+		address.add("Tipo vía"); // 0
+		address.add("Calle"); // 1
+		address.add("Número"); // 2
+		address.add("Escalera"); // 3
+		address.add("Piso"); // 4
+		address.add("Puerta"); // 5
+		address.add("Código postal"); // 6
+		address.add("Localidad"); // 7
+		address.add("Código municipio"); // 8
+		address.add("Provincia"); // 9
+		address.add("Comunidad autónoma"); // 10
+		address.add("País"); // 11
 	}
 
 	// Getters & Setters
 
-	public ArrayList<String> getTexts() {
-		return texts;
+	public ArrayList<String> getPersonalData() {
+		return personalData;
 	}
 
-	public void setTexts(ArrayList<String> texts) {
-		this.texts = texts;
+	public void setPersonalData(ArrayList<String> personalData) {
+		this.personalData = personalData;
+	}
+
+	public ArrayList<String> getAddress() {
+		return address;
+	}
+
+	public void setAddress(ArrayList<String> address) {
+		this.address = address;
 	}
 
 	public ArrayList<Integer> getNumbers() {
@@ -82,3 +92,4 @@ public class Data {
 	}
 
 }
+
